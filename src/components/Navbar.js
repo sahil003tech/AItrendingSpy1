@@ -113,7 +113,7 @@ const Navbar = () => {
          <li>
           <div>
             <NavLink
-              to="stratergy"
+              to="/stratergy"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
@@ -132,7 +132,7 @@ const Navbar = () => {
         <li>
           <div>
             <NavLink
-              to="optimizer"
+              to="/optimizer"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
@@ -151,7 +151,7 @@ const Navbar = () => {
         <li>
           <div>
             <NavLink
-              to="community"
+              to="/community"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",

@@ -8,10 +8,12 @@ import Advisor from "../Aboutcomp/Advisor";
 import Investors from "../Aboutcomp/Investors";
 import Partnars from "../Aboutcomp/Partnars";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
     <div>
+      <Navbar/>
       <Topdiv />
       <Second />
       <Third />

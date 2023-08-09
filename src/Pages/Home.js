@@ -11,6 +11,7 @@ import Location from "../components/Location";
 const Home = () => {
   return (
     <div style={{ height: "100%" }}>
+      <Navbar/>
       <Magnifi />
       <Feature />
       <Sliderimage />

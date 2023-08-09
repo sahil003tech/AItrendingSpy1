@@ -21,13 +21,12 @@
 }
 @media (max-width:840px) {
     .logo-section{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 5fr 5fr 5fr;
         padding-bottom: 50px;
         gap: 20px;
-        padding-left: 5%;
-
+        padding-left: 10%;
     }
     .feature{
         height: max-content;
@@ -47,5 +46,10 @@
     .nas{
         width: 100px;
         height: 20px;
+    }
+}
+@media (max-width:780px) {
+    .logo-section{
+        padding-left: 5%;
     }
 }
