@@ -19,13 +19,15 @@
     align-items: center;
     width: 100%;
 }
-@media (max-width:780px) {
+@media (max-width:840px) {
     .logo-section{
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: 5fr 5fr 5fr;
         padding-bottom: 50px;
         gap: 20px;
+        padding-left: 5%;
+
     }
     .feature{
         height: max-content;
